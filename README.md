@@ -18,9 +18,9 @@
 ## 📦 Установка
 
 ```bash
-git clone <this-repo>
-cd hh_parser_project
+git clone https://github.com/ExTallentt88/-hh-pars
+cd -hh-pars
 python -m venv .venv
-source .venv/bin/activate    # Linux / macOS
-# .\.venv\Scripts\activate   # Windows
+source .venv/bin/activate    # линукс/макОС
+# .\.venv\Scripts\activate   # виндовс
 pip install -r requirements.txt
