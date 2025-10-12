@@ -1,0 +1,1 @@
+Example: python scripts/cli.py --text "python developer" --per-page 20 --max-pages 2 --out csv --out-file python_jobs.csv
