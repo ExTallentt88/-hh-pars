@@ -1,5 +1,4 @@
-#!/usr/bin/env python3
-"""CLI для hh_parser: поиск вакансий и сохранение в CSV/SQLite."""
+
 import argparse
 import sys
 from tqdm import tqdm
@@ -32,7 +31,7 @@ def main():
         print('No items fetched.')
         return
     if args.out == 'csv':
-        # try to get a deterministic set of keys
+      
         keys = sorted({k for d in items for k in d.keys()})
         save_to_csv(items, args.out_file, fieldnames=keys)
         print(f'Saved {len(items)} items to {args.out_file}')
